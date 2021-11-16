@@ -4,10 +4,10 @@
 3. Install docker and docker-compose
 4. Run docker-compose up in project root directory
 5. Run docker-compose exec app php artisan generate:key
-6. Run docker-compose exec app php artisan migrate
-http://localhost - app main page,
-http://localhost:8888 - phpmyadmin,
-http://localhost:8025 - mailhog
+6. Run docker-compose exec app php artisan migrate<br>
+http://localhost - app main page,<br>
+http://localhost:8888 - phpmyadmin,<br>
+http://localhost:8025 - mailhog<br>
 
 <strong>Permission problems</strong><br>
 If you've got error like <strong>"laravel.log" could not be opened in append mode: failed to open stream: Permission denied"</strong> then run this command: 
