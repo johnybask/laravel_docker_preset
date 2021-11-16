@@ -6,6 +6,6 @@
 5. Run docker-compose exec app php artisan generate:key
 6. Run docker-compose exec app php artisan migrate
 
-<strong>Permission problems</strong>
+<strong>Permission problems</strong><br>
 If you've got error like "laravel.log" could not be opened in append mode: failed to open stream: Permission denied" then run this command: 
 docker-compose exec app chown -R www-data:www-data /var/www/storage
