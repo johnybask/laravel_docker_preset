@@ -5,7 +5,7 @@
 4. Run docker-compose up in project root directory
 5. Run docker-compose exec app php artisan generate:key
 6. Run docker-compose exec app php artisan migrate
-7. Check http://localhost - app main page,
+http://localhost - app main page,
 http://localhost:8888 - phpmyadmin,
 http://localhost:8025 - mailhog
 
