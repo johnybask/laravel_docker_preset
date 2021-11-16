@@ -10,8 +10,7 @@ services:
         volumes:
             - ./:/var/www
         depends_on:
-            - "database"    
-        command: bash -c "chown -R www-data /var/www/storage && php artisan key:generate && php artisan migrate"    
+            - "database"  
     # Web Server
     web:
         build:
