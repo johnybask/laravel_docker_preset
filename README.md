@@ -3,7 +3,7 @@
 2. Run cp .env.example .env
 3. Install docker and docker-compose
 4. Run docker-compose up in project root directory
-5. Run docker-compose exec app php artisan generate:key
+5. Run docker-compose exec app php artisan key:generate
 6. Run docker-compose exec app php artisan migrate<br><br>
 http://localhost - app main page,<br>
 http://localhost:8888 - phpmyadmin,<br>
