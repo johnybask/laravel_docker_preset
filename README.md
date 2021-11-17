@@ -8,6 +8,7 @@
 http://localhost - app main page,<br>
 http://localhost:8888 - phpmyadmin,<br>
 http://localhost:8025 - mailhog<br>
+resources/js/components - vue components path
 
 <strong>Permission problems</strong><br>
 If you've got error like <strong>"laravel.log" could not be opened in append mode: failed to open stream: Permission denied"</strong> then run this command: 
